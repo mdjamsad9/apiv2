@@ -1,0 +1,18 @@
+{
+  "active_source": "crexify",
+  "sources": {
+    "crexify": {
+      "api_url": "https://crex-api.pages.dev/",
+      "keys": {
+        "Crexify_SetB": {
+          "aes_key": "k8Ml5bk4xK1kM9oP",
+          "aes_iv": "G6K4nM8mVlBL8p51"
+        },
+        "Crexify_SetA": {
+          "aes_key": "l2K5wB8xC1wP7rK1",
+          "aes_iv": "n0K4nP8uB8hH1l18"
+        }
+      }
+    }
+  }
+}
