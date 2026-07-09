@@ -1,0 +1,16 @@
+[
+  {
+    "name": "One Fight AQ",
+    "link": "http://cricfy-tv.net/promo/cricfy-promo.m3u8",
+    "scheme": 0,
+    "api": "",
+    "tokenApi": ""
+  },
+  {
+    "name": "Server 3",
+    "link": "https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/561402/index.mpd",
+    "scheme": 0,
+    "api": "a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0",
+    "tokenApi": ""
+  }
+]
