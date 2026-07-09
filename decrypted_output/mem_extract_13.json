@@ -1,0 +1,27 @@
+{
+  "visible": true,
+  "isHot": false,
+  "priority": 1,
+  "category": "Cricket",
+  "eventName": "T20 International",
+  "eventLogo": "http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark",
+  "teamAName": "England",
+  "teamBName": "India",
+  "teamAFlag": "https://img.sofascore.com/api/v1/team/187757/image",
+  "teamBFlag": "https://img.sofascore.com/api/v1/team/187765/image",
+  "date": "09/07/2026",
+  "time": "16:30:00",
+  "link_names": [
+    "Willow by Cricbuzz - AQ",
+    "Willow by Cricbuzz S2 - AQ",
+    "Sky Sports Cricket - AQ",
+    "TapMad - AQ (Use VPN)",
+    "Sony Sports English - AQ (Indian IP)",
+    "Sony Sports English S2 - AQ (Indian IP)",
+    "Sony Sports Hindi - AQ (Indian IP)",
+    "Sony Sports Tamil - AQ (Indian IP)",
+    "Sony Sports Telugu - AQ (Indian IP)",
+    "Low Server"
+  ],
+  "links": "pro/VDIwIEludGVybmF0aW9uYWwtRW5nbGFuZC12cy1JbmRpYTE3ODI4NDgwNzc5NzM.txt"
+}

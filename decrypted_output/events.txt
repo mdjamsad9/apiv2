@@ -1,0 +1,308 @@
+[
+  {
+    "id": 35,
+    "event": "{\"category\": \"Boxing\", \"category2\": \"Boxing\", \"eventName\": \"AEW Dynamite\", \"eventName2\": \"AEW Dynamite\", \"eventLogo\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB88iK4_VDCc8OWqAQ-UzYdZLl4hPmZSxXRaHiHwyf-g&s=10\", \"teamAName\": \"AEW\", \"teamBName\": \"AEW\", \"teamAFlag\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB88iK4_VDCc8OWqAQ-UzYdZLl4hPmZSxXRaHiHwyf-g&s=10\", \"teamBFlag\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB88iK4_VDCc8OWqAQ-UzYdZLl4hPmZSxXRaHiHwyf-g&s=10\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/QUVXIER5bmFtaXRlLUFFVy12cy1BRVcxNzgwNTE1NjY5NzI2.txt\", \"time\": \"19:00:00\", \"date\": \"17/06/2026\", \"visible\": true, \"priority\": -1, \"link_names\": [\"TSN SPORTS AQ\", \"BACKUP LQ\"]}",
+    "links": "[{\"name\":\"TSN SPORTS AQ\",\"link\":\"http:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"},{\"name\":\"BACKUP LQ\",\"link\":\"https:\\/\\/27lftgqlgzmy.windows-devs.top\\/AccessLog2\\/108087_HD\\/apache.m3u8|Referer=https:\\/\\/27lftgqlgzmy.windows-devs.top\\/\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"}]",
+    "order_index": 0
+  },
+  {
+    "id": 53,
+    "event": "{\"category\": \"Motorsport\", \"category2\": \"Motorsport\", \"eventName\": \"MotoGP - Gran Prix of Hungary\", \"eventName2\": \"MotoGP - Gran Prix of Hungary\", \"eventLogo\": \"https://raw.githubusercontent.com/xmrt624/logo/6fedc9ee79594fa82ff1671d42de6dd7e96d40c1/MotoGPX.png\", \"teamAName\": \"MotoGP\", \"teamBName\": \"MotoGP\", \"teamAFlag\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgDXg8WOTxDGYhsU_r4iaau8PucLtaXmSVO3Y_9CwO2Q&s=10\", \"teamBFlag\": \"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgDXg8WOTxDGYhsU_r4iaau8PucLtaXmSVO3Y_9CwO2Q&s=10\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/TW90b0dQIC0gR3JhbiBQcml4IG9mIEh1bmdhcnktTW90b0dQLXZzLU1vdG9HUDE3ODA2NDMxOTQwNDg.txt\", \"time\": \"08:00:00\", \"date\": \"19/06/2026\", \"visible\": true, \"priority\": -1, \"link_names\": [\"MotoGP - AQ\", \"SPOTV AQ\"]}",
+    "links": "[{\"name\":\"MotoGP - AQ\",\"link\":\"http:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"},{\"name\":\"SPOTV AQ\",\"link\":\"https:\\/\\/qp-pldt-live-grp-13-prod.akamaized.net\\/out\\/u\\/dr_spotv2hd.mpd\",\"scheme\":0,\"api\":\"7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed\",\"tokenApi\":\"\"}]",
+    "order_index": 2
+  },
+  {
+    "id": 54,
+    "event": "{\"category\": \"Motorsport\", \"category2\": \"Motorsport\", \"eventName\": \"F1 | Monaco Grand Prix\", \"eventName2\": \"F1 | Monaco Grand Prix\", \"eventLogo\": \"https://raw.githubusercontent.com/xmrt624/logo/refs/heads/main/f1.png\", \"teamAName\": \"Formula 1\", \"teamBName\": \"Formula 1\", \"teamAFlag\": \"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisf1lphGAPsJzz9s89f8AVGiITtEZIrt3Xwg1u-SlmqQtIH13DRgSeOLExqvR4u0jaEtlAtfFyqqBXgBEnw9hP9BWoKQpErNFyEDJkKU4zXuIeqaFoQORWs3fnGWd2o6_TazAZn5ihmLgmNdbGmnWCnUQKP_BfRj44Lpck_OtE49p7n2Kk6k6KWjHOTsA/s1600/1000009765.jpg\", \"teamBFlag\": \"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisf1lphGAPsJzz9s89f8AVGiITtEZIrt3Xwg1u-SlmqQtIH13DRgSeOLExqvR4u0jaEtlAtfFyqqBXgBEnw9hP9BWoKQpErNFyEDJkKU4zXuIeqaFoQORWs3fnGWd2o6_TazAZn5ihmLgmNdbGmnWCnUQKP_BfRj44Lpck_OtE49p7n2Kk6k6KWjHOTsA/s1600/1000009765.jpg\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RjEgfCBNb25hY28gR3JhbmQgUHJpeC1Gb3JtdWxhIDEtdnMtRm9ybXVsYSAxMTc4MDY0MzM5Mjk2OQ.txt\", \"time\": \"08:00:00\", \"date\": \"12/06/2026\", \"visible\": true, \"priority\": -1, \"link_names\": [\"TSN SPORTS - AQ\", \"FANCODE - AQ\", \"F1 HD\"]}",
+    "links": "[{\"name\":\"TSN SPORTS - AQ\",\"link\":\"http:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"},{\"name\":\"FANCODE - AQ\",\"link\":\"https:\\/\\/otte.cache.aiv-cdn.net\\/iad-nitro\\/live\\/clients\\/dash\\/enc\\/fdb3pubmek\\/out\\/v1\\/aefca6420f944a9482e117f315de535f\\/cenc.mpd\",\"scheme\":0,\"api\":\"7e9239c1982d984a002df3ed049d0756:1b8a17598129a3618535c8fb05f103fe\",\"tokenApi\":\"\"},{\"name\":\"F1 HD\",\"link\":\"https:\\/\\/chatgpt.hereisman.net\\/playlist\\/51586\\/load-playlist?|Referer=https:\\/\\/gooz.aapmains.net\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"}]",
+    "order_index": 3
+  },
+  {
+    "id": 69,
+    "event": "{\"category\": \"Boxing\", \"category2\": \"Boxing\", \"eventName\": \"🥊 WWE Friday Night SmackDown\", \"eventName2\": \"🥊 WWE Friday Night SmackDown\", \"eventLogo\": \"https://github.com/xmrt624/logo/blob/main/wwe-logo-white-red-render.png?raw=true\", \"teamAName\": \"WWE\", \"teamBName\": \"WWE\", \"teamAFlag\": \"https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png\", \"teamBFlag\": \"https://www.wwe.com/f/styles/wwe_show_logo_l/public/all/2024/09/Smackdown_LOGO--c8e0b09904cb1356d309a8ea2acb0422.png\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/8J+liiBXV0UgRnJpZGF5IE5pZ2h0IFNtYWNrRG93bi1XV0UtdnMtV1dFMTc4MDY0MzY5NjY4MA.txt\", \"time\": \"20:00:00\", \"date\": \"12/06/2026\", \"visible\": true, \"priority\": -1, \"link_names\": [\"WWE LIVE HD\"]}",
+    "links": "[{\"name\":\"WWE LIVE HD\",\"link\":\"http:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"}]",
+    "order_index": 4
+  },
+  {
+    "id": 70,
+    "event": "{\"category\": \"Boxing\", \"category2\": \"Boxing\", \"eventName\": \"ONE Friday Fights\", \"eventName2\": \"ONE Friday Fights\", \"eventLogo\": \"o\", \"teamAName\": \"Friday Fights\", \"teamBName\": \"Friday Fights\", \"teamAFlag\": \"https://iili.io/FDjaT1R.md.png\", \"teamBFlag\": \"https://iili.io/FDjaT1R.md.png\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/T05FIEZyaWRheSBGaWdodHMtRnJpZGF5IEZpZ2h0cy12cy1GcmlkYXkgRmlnaHRzMTc4MDY0MzkwNTI4Mw.txt\", \"time\": \"12:30:00\", \"date\": \"12/06/2026\", \"visible\": true, \"priority\": -1, \"link_names\": [\"One Fight AQ\", \"Server 3\"]}",
+    "links": "[{\"name\":\"One Fight AQ\",\"link\":\"http:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"},{\"name\":\"Server 3\",\"link\":\"https:\\/\\/v4-pan-n79-cdn-01.live.cdn.cgates.lt\\/live\\/dash\\/561402\\/index.mpd\",\"scheme\":0,\"api\":\"a6b967afcb974bb5a549377b4f09befd:87d993257a099324ccd0215475fc61a0\",\"tokenApi\":\"\"}]",
+    "order_index": 5
+  },
+  {
+    "id": 158,
+    "event": "{\"category\": \"Football\", \"category2\": \"FIFA World Cup, Group A\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"South Korea vs Czechia\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"South Korea\", \"teamBName\": \"Czechia\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4735/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4714/image\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtU291dGggS29yZWEtdnMtQ3plY2hpYTE3ODExNjE2MjczMDY.txt\", \"time\": \"02:00:00\", \"date\": \"12/06/2026\", \"end_time\": \"04:20:00\", \"end_date\": \"12/06/2026\", \"visible\": true, \"priority\": -1, \"link_names\": [\"TSN SPORTS - AQ\", \"CAZE TV - FHD\"]}",
+    "links": "[{\"name\":\"TSN SPORTS - AQ\",\"link\":\"http:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"},{\"name\":\"CAZE TV - FHD\",\"link\":\"https:\\/\\/dfr80qz435crc.cloudfront.net\\/MNOP\\/Amagi\\/Caze\\/Caze_TV_BR\\/1080p-vtt\\/index.m3u8\",\"scheme\":0,\"api\":\"https:\\/\\/dfr80qz435crc.cloudfront.net\\/MNOP\\/Amagi\\/Caze\\/Caze_TV_BR\\/1080p-vtt\\/index.m3u8\",\"tokenApi\":\"\"}]",
+    "order_index": 8
+  },
+  {
+    "id": 159,
+    "event": "{\"visible\": true, \"category\": \"Cricket\", \"category2\": \"ICC Women's T20 World Cup, Group 2\", \"eventName\": \"ICC Women World Twenty20\", \"eventName2\": \"England Women vs Sri Lanka Women\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/11183/image/dark\", \"teamAName\": \"ENG-W\", \"teamBName\": \"SL-W\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/213121/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/187806/image\", \"date\": \"12/06/2026\", \"time\": \"17:30:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/SUNDIFdvbWVuIFdvcmxkIFR3ZW50eTIwLUVORy1XLXZzLVNMLVcxNzgxMjE0NTE2MzY4.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 9
+  },
+  {
+    "id": 160,
+    "event": "{\"category\": \"Cricket\", \"category2\": \"Sri Lanka in West Indies, 3 T20I Series\", \"eventName\": \"T20 International\", \"eventName2\": \"West Indies vs Sri Lanka\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/11191/image/dark\", \"teamAName\": \"WI\", \"teamBName\": \"SL\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/187760/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/187756/image\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/VDIwIEludGVybmF0aW9uYWwtV0ktdnMtU0wxNzgxMjE0NTE2MzY4.txt\", \"time\": \"00:30:00\", \"date\": \"12/06/2026\", \"visible\": true, \"priority\": -1, \"link_names\": [\"cricfytv.net\"]}",
+    "links": "[{\"name\":\"cricfytv.net\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\",\"scheme\":0,\"api\":\"\",\"tokenApi\":\"\"}]",
+    "order_index": 10
+  },
+  {
+    "id": 161,
+    "event": "{\"visible\": true, \"category\": \"Cricket\", \"category2\": \"Afghanistan in India, 3 ODI Series\", \"eventName\": \"One Day International\", \"eventName2\": \"India vs Afghanistan\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark\", \"teamAName\": \"IND\", \"teamBName\": \"AFG\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/187765/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/187575/image\", \"date\": \"13/06/2026\", \"time\": \"08:00:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/T25lIERheSBJbnRlcm5hdGlvbmFsLUlORC12cy1BRkcxNzgxMjE0NTE2MzY4.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 11
+  },
+  {
+    "id": 162,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group D\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"USA vs Paraguay\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"USA\", \"teamBName\": \"Paraguay\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4724/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4789/image\", \"date\": \"13/06/2026\", \"time\": \"01:00:00\", \"end_date\": \"13/06/2026\", \"end_time\": \"03:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtVVNBLXZzLVBhcmFndWF5MTc4MTIxNTc0NTc4NQ.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 12
+  },
+  {
+    "id": 163,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group B\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Canada vs Bosnia & Herzegovina\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Canada\", \"teamBName\": \"BiH\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4752/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4479/image\", \"date\": \"12/06/2026\", \"time\": \"19:00:00\", \"end_date\": \"12/06/2026\", \"end_time\": \"21:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQ2FuYWRhLXZzLUJpSDE3ODEyMTU3NDU3ODU.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 13
+  },
+  {
+    "id": 164,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group C\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Haiti vs Scotland\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Haiti\", \"teamBName\": \"Scotland\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/7229/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4695/image\", \"date\": \"14/06/2026\", \"time\": \"01:00:00\", \"end_date\": \"14/06/2026\", \"end_time\": \"03:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtSGFpdGktdnMtU2NvdGxhbmQxNzgxMjE1NzY5NTAz.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 14
+  },
+  {
+    "id": 165,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group D\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Australia vs Türkiye\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Australia\", \"teamBName\": \"Türkiye\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4741/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4700/image\", \"date\": \"14/06/2026\", \"time\": \"04:00:00\", \"end_date\": \"14/06/2026\", \"end_time\": \"06:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQXVzdHJhbGlhLXZzLVTDvHJraXllMTc4MTIxNTc2OTUwMw.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 15
+  },
+  {
+    "id": 166,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group C\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Brazil vs Morocco\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Brazil\", \"teamBName\": \"Morocco\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4748/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4778/image\", \"date\": \"13/06/2026\", \"time\": \"22:00:00\", \"end_date\": \"14/06/2026\", \"end_time\": \"00:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQnJhemlsLXZzLU1vcm9jY28xNzgxMjE1NzY5NTAz.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 16
+  },
+  {
+    "id": 167,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group B\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Qatar vs Switzerland\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Qatar\", \"teamBName\": \"Switzerland\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4792/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4699/image\", \"date\": \"13/06/2026\", \"time\": \"19:00:00\", \"end_date\": \"13/06/2026\", \"end_time\": \"21:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtUWF0YXItdnMtU3dpdHplcmxhbmQxNzgxMjE1NzY5NTAz.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 17
+  },
+  {
+    "id": 168,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group E\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Côte d'Ivoire vs Ecuador\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Côte d'Ivoire\", \"teamBName\": \"Ecuador\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4768/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4757/image\", \"date\": \"14/06/2026\", \"time\": \"23:00:00\", \"end_date\": \"15/06/2026\", \"end_time\": \"01:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQ8O0dGUgZCdJdm9pcmUtdnMtRWN1YWRvcjE3ODEyMTU3OTEyNjQ.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 18
+  },
+  {
+    "id": 169,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group E\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Germany vs Curaçao\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Germany\", \"teamBName\": \"Curaçao\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4711/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/55827/image\", \"date\": \"14/06/2026\", \"time\": \"17:00:00\", \"end_date\": \"14/06/2026\", \"end_time\": \"19:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtR2VybWFueS12cy1DdXJhw6dhbzE3ODEyMTU3OTEyNjQ.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 19
+  },
+  {
+    "id": 170,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group F\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Netherlands vs Japan\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Netherlands\", \"teamBName\": \"Japan\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4705/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4770/image\", \"date\": \"14/06/2026\", \"time\": \"20:00:00\", \"end_date\": \"14/06/2026\", \"end_time\": \"22:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtTmV0aGVybGFuZHMtdnMtSmFwYW4xNzgxMjE1NzkxMjY0.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 20
+  },
+  {
+    "id": 171,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group F\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Sweden vs Tunisia\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Sweden\", \"teamBName\": \"Tunisia\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4688/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4729/image\", \"date\": \"15/06/2026\", \"time\": \"02:00:00\", \"end_date\": \"15/06/2026\", \"end_time\": \"04:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtU3dlZGVuLXZzLVR1bmlzaWExNzgxMjE1NzkxMjY0.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 21
+  },
+  {
+    "id": 172,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group H\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Saudi Arabia vs Uruguay\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Saudi Arabia\", \"teamBName\": \"Uruguay\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4834/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4725/image\", \"date\": \"15/06/2026\", \"time\": \"22:00:00\", \"end_date\": \"16/06/2026\", \"end_time\": \"00:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtU2F1ZGkgQXJhYmlhLXZzLVVydWd1YXkxNzgxMjE1ODA5MzI3.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 22
+  },
+  {
+    "id": 173,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group G\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Belgium vs Egypt\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Belgium\", \"teamBName\": \"Egypt\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4717/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4758/image\", \"date\": \"15/06/2026\", \"time\": \"19:00:00\", \"end_date\": \"15/06/2026\", \"end_time\": \"21:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQmVsZ2l1bS12cy1FZ3lwdDE3ODEyMTU4MDkzMjc.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 23
+  },
+  {
+    "id": 174,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group G\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Iran vs New Zealand\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Iran\", \"teamBName\": \"New Zealand\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4766/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4784/image\", \"date\": \"16/06/2026\", \"time\": \"01:00:00\", \"end_date\": \"16/06/2026\", \"end_time\": \"03:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtSXJhbi12cy1OZXcgWmVhbGFuZDE3ODEyMTU4MDkzMjc.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 24
+  },
+  {
+    "id": 175,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group H\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Spain vs Cabo Verde\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Spain\", \"teamBName\": \"Cabo Verde\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4698/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4753/image\", \"date\": \"15/06/2026\", \"time\": \"16:00:00\", \"end_date\": \"15/06/2026\", \"end_time\": \"18:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtU3BhaW4tdnMtQ2FibyBWZXJkZTE3ODEyMTU4MDkzMjc.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 25
+  },
+  {
+    "id": 176,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group I\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"France vs Senegal\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"France\", \"teamBName\": \"Senegal\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4481/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4739/image\", \"date\": \"16/06/2026\", \"time\": \"19:00:00\", \"end_date\": \"16/06/2026\", \"end_time\": \"21:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtRnJhbmNlLXZzLVNlbmVnYWwxNzgxMjE1ODI1NDM1.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 26
+  },
+  {
+    "id": 177,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group J\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Austria vs Jordan\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Austria\", \"teamBName\": \"Jordan\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4718/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4771/image\", \"date\": \"17/06/2026\", \"time\": \"04:00:00\", \"end_date\": \"17/06/2026\", \"end_time\": \"06:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQXVzdHJpYS12cy1Kb3JkYW4xNzgxMjE1ODI1NDM1.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 27
+  },
+  {
+    "id": 178,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group J\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Argentina vs Algeria\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Argentina\", \"teamBName\": \"Algeria\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4819/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4691/image\", \"date\": \"17/06/2026\", \"time\": \"01:00:00\", \"end_date\": \"17/06/2026\", \"end_time\": \"03:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQXJnZW50aW5hLXZzLUFsZ2VyaWExNzgxMjE1ODI1NDM1.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 28
+  },
+  {
+    "id": 179,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group I\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Iraq vs Norway\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Iraq\", \"teamBName\": \"Norway\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4767/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4475/image\", \"date\": \"16/06/2026\", \"time\": \"22:00:00\", \"end_date\": \"17/06/2026\", \"end_time\": \"00:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtSXJhcS12cy1Ob3J3YXkxNzgxMjE1ODI1NDM1.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 29
+  },
+  {
+    "id": 180,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group L\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Ghana vs Panama\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Ghana\", \"teamBName\": \"Panama\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4764/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/5164/image\", \"date\": \"17/06/2026\", \"time\": \"23:00:00\", \"end_date\": \"18/06/2026\", \"end_time\": \"01:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtR2hhbmEtdnMtUGFuYW1hMTc4MTIxNTg0MTgyNg.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 30
+  },
+  {
+    "id": 181,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group K\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Uzbekistan vs Colombia\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Uzbekistan\", \"teamBName\": \"Colombia\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4723/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4820/image\", \"date\": \"18/06/2026\", \"time\": \"02:00:00\", \"end_date\": \"18/06/2026\", \"end_time\": \"04:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtVXpiZWtpc3Rhbi12cy1Db2xvbWJpYTE3ODEyMTU4NDE4MjY.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 31
+  },
+  {
+    "id": 182,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group L\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"England vs Croatia\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"England\", \"teamBName\": \"Croatia\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4713/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4715/image\", \"date\": \"17/06/2026\", \"time\": \"20:00:00\", \"end_date\": \"17/06/2026\", \"end_time\": \"22:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtRW5nbGFuZC12cy1Dcm9hdGlhMTc4MTIxNTg0MTgyNg.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 32
+  },
+  {
+    "id": 183,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group K\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Portugal vs DR Congo\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Portugal\", \"teamBName\": \"DR Congo\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4704/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4823/image\", \"date\": \"17/06/2026\", \"time\": \"17:00:00\", \"end_date\": \"17/06/2026\", \"end_time\": \"19:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtUG9ydHVnYWwtdnMtRFIgQ29uZ28xNzgxMjE1ODQxODI2.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 33
+  },
+  {
+    "id": 184,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group B\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Switzerland vs Bosnia & Herzegovina\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Switzerland\", \"teamBName\": \"BiH\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4699/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4479/image\", \"date\": \"18/06/2026\", \"time\": \"19:00:00\", \"end_date\": \"18/06/2026\", \"end_time\": \"21:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtU3dpdHplcmxhbmQtdnMtQmlIMTc4MTIxNTg1NDM0MQ.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 34
+  },
+  {
+    "id": 185,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group A\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Mexico vs South Korea\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Mexico\", \"teamBName\": \"South Korea\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4781/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4735/image\", \"date\": \"19/06/2026\", \"time\": \"01:00:00\", \"end_date\": \"19/06/2026\", \"end_time\": \"03:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtTWV4aWNvLXZzLVNvdXRoIEtvcmVhMTc4MTIxNTg1NDM0MQ.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 35
+  },
+  {
+    "id": 186,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group A\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Czechia vs South Africa\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Czechia\", \"teamBName\": \"South Africa\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4714/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4736/image\", \"date\": \"18/06/2026\", \"time\": \"16:00:00\", \"end_date\": \"18/06/2026\", \"end_time\": \"18:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQ3plY2hpYS12cy1Tb3V0aCBBZnJpY2ExNzgxMjE1ODU0MzQx.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 36
+  },
+  {
+    "id": 187,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group B\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Canada vs Qatar\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Canada\", \"teamBName\": \"Qatar\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4752/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4792/image\", \"date\": \"18/06/2026\", \"time\": \"22:00:00\", \"end_date\": \"19/06/2026\", \"end_time\": \"00:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQ2FuYWRhLXZzLVFhdGFyMTc4MTIxNTg1NDM0MQ.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 37
+  },
+  {
+    "id": 188,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group D\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"USA vs Australia\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"USA\", \"teamBName\": \"Australia\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4724/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4741/image\", \"date\": \"19/06/2026\", \"time\": \"19:00:00\", \"end_date\": \"19/06/2026\", \"end_time\": \"21:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtVVNBLXZzLUF1c3RyYWxpYTE3ODEyMTU4NzE0MTg.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 38
+  },
+  {
+    "id": 189,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group D\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Türkiye vs Paraguay\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Türkiye\", \"teamBName\": \"Paraguay\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4700/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4789/image\", \"date\": \"20/06/2026\", \"time\": \"03:00:00\", \"end_date\": \"20/06/2026\", \"end_time\": \"05:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtVMO8cmtpeWUtdnMtUGFyYWd1YXkxNzgxMjE1ODcxNDE4.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 39
+  },
+  {
+    "id": 190,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group C\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Scotland vs Morocco\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Scotland\", \"teamBName\": \"Morocco\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4695/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4778/image\", \"date\": \"19/06/2026\", \"time\": \"22:00:00\", \"end_date\": \"20/06/2026\", \"end_time\": \"00:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtU2NvdGxhbmQtdnMtTW9yb2NjbzE3ODEyMTU4NzE0MTg.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 40
+  },
+  {
+    "id": 191,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group C\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Brazil vs Haiti\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Brazil\", \"teamBName\": \"Haiti\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4748/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/7229/image\", \"date\": \"20/06/2026\", \"time\": \"00:30:00\", \"end_date\": \"20/06/2026\", \"end_time\": \"02:50:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQnJhemlsLXZzLUhhaXRpMTc4MTIxNTg3MTQxOA.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 41
+  },
+  {
+    "id": 192,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group E\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Ecuador vs Curaçao\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Ecuador\", \"teamBName\": \"Curaçao\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4757/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/55827/image\", \"date\": \"21/06/2026\", \"time\": \"00:00:00\", \"end_date\": \"21/06/2026\", \"end_time\": \"02:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtRWN1YWRvci12cy1DdXJhw6dhbzE3ODEyMTU5MjIzOTE.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 42
+  },
+  {
+    "id": 193,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group F\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Netherlands vs Sweden\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Netherlands\", \"teamBName\": \"Sweden\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4705/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4688/image\", \"date\": \"20/06/2026\", \"time\": \"17:00:00\", \"end_date\": \"20/06/2026\", \"end_time\": \"19:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtTmV0aGVybGFuZHMtdnMtU3dlZGVuMTc4MTIxNTkyMjM5MQ.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 43
+  },
+  {
+    "id": 194,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group E\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Germany vs Côte d'Ivoire\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Germany\", \"teamBName\": \"Côte d'Ivoire\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4711/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4768/image\", \"date\": \"20/06/2026\", \"time\": \"20:00:00\", \"end_date\": \"20/06/2026\", \"end_time\": \"22:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtR2VybWFueS12cy1Dw7R0ZSBkJ0l2b2lyZTE3ODEyMTU5MjIzOTE.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 44
+  },
+  {
+    "id": 195,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group F\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Tunisia vs Japan\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Tunisia\", \"teamBName\": \"Japan\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4729/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4770/image\", \"date\": \"21/06/2026\", \"time\": \"04:00:00\", \"end_date\": \"21/06/2026\", \"end_time\": \"06:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtVHVuaXNpYS12cy1KYXBhbjE3ODEyMTU5MjIzOTE.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 45
+  },
+  {
+    "id": 196,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group G\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"New Zealand vs Egypt\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"New Zealand\", \"teamBName\": \"Egypt\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4784/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4758/image\", \"date\": \"22/06/2026\", \"time\": \"01:00:00\", \"end_date\": \"22/06/2026\", \"end_time\": \"03:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtTmV3IFplYWxhbmQtdnMtRWd5cHQxNzgxMjE1OTM5Mjcz.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 46
+  },
+  {
+    "id": 197,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group H\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Spain vs Saudi Arabia\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Spain\", \"teamBName\": \"Saudi Arabia\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4698/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4834/image\", \"date\": \"21/06/2026\", \"time\": \"16:00:00\", \"end_date\": \"21/06/2026\", \"end_time\": \"18:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtU3BhaW4tdnMtU2F1ZGkgQXJhYmlhMTc4MTIxNTkzOTI3Mw.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 47
+  },
+  {
+    "id": 198,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group H\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Uruguay vs Cabo Verde\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Uruguay\", \"teamBName\": \"Cabo Verde\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4725/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4753/image\", \"date\": \"21/06/2026\", \"time\": \"22:00:00\", \"end_date\": \"22/06/2026\", \"end_time\": \"00:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtVXJ1Z3VheS12cy1DYWJvIFZlcmRlMTc4MTIxNTkzOTI3Mw.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 48
+  },
+  {
+    "id": 199,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group G\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Belgium vs Iran\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Belgium\", \"teamBName\": \"Iran\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4717/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4766/image\", \"date\": \"21/06/2026\", \"time\": \"19:00:00\", \"end_date\": \"21/06/2026\", \"end_time\": \"21:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQmVsZ2l1bS12cy1JcmFuMTc4MTIxNTkzOTI3Mw.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 49
+  },
+  {
+    "id": 200,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group I\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"France vs Iraq\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"France\", \"teamBName\": \"Iraq\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4481/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4767/image\", \"date\": \"22/06/2026\", \"time\": \"21:00:00\", \"end_date\": \"22/06/2026\", \"end_time\": \"23:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtRnJhbmNlLXZzLUlyYXExNzgxMjE1OTUyNjUw.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 50
+  },
+  {
+    "id": 201,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group I\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Norway vs Senegal\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Norway\", \"teamBName\": \"Senegal\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4475/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4739/image\", \"date\": \"23/06/2026\", \"time\": \"00:00:00\", \"end_date\": \"23/06/2026\", \"end_time\": \"02:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtTm9yd2F5LXZzLVNlbmVnYWwxNzgxMjE1OTUyNjUw.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 51
+  },
+  {
+    "id": 202,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group J\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Argentina vs Austria\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Argentina\", \"teamBName\": \"Austria\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4819/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4718/image\", \"date\": \"22/06/2026\", \"time\": \"17:00:00\", \"end_date\": \"22/06/2026\", \"end_time\": \"19:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtQXJnZW50aW5hLXZzLUF1c3RyaWExNzgxMjE1OTUyNjUw.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 52
+  },
+  {
+    "id": 203,
+    "event": "{\"visible\": true, \"category\": \"Football\", \"category2\": \"FIFA World Cup, Group J\", \"eventName\": \"FIFA World Cup\", \"eventName2\": \"Jordan vs Algeria\", \"eventLogo\": \"http://api.sofascore.com/api/v1/unique-tournament/16/image/dark\", \"teamAName\": \"Jordan\", \"teamBName\": \"Algeria\", \"teamAFlag\": \"https://img.sofascore.com/api/v1/team/4771/image\", \"teamBFlag\": \"https://img.sofascore.com/api/v1/team/4691/image\", \"date\": \"23/06/2026\", \"time\": \"03:00:00\", \"end_date\": \"23/06/2026\", \"end_time\": \"05:20:00\", \"links\": \"https://mdjamsad9.github.io/apiv2/decrypted_output/pro/RklGQSBXb3JsZCBDdXAtSm9yZGFuLXZzLUFsZ2VyaWExNzgxMjE1OTUyNjUw.txt\"}",
+    "links": "[{\"name\":\"Link 1\",\"link\":\"https:\\/\\/cricfy-tv.net\\/promo\\/cricfy-promo.m3u8\"}]",
+    "order_index": 53
+  }
+]

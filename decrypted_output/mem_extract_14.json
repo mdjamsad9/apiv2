@@ -1,0 +1,21 @@
+{
+  "visible": true,
+  "isHot": false,
+  "priority": 1,
+  "category": "Cricket",
+  "eventName": "One Day International",
+  "eventLogo": "http://api.sofascore.com/api/v1/unique-tournament/11190/image/dark",
+  "teamAName": "Zimbabwe",
+  "teamBName": "Bangladesh",
+  "teamAFlag": "https://img.sofascore.com/api/v1/team/187745/image",
+  "teamBFlag": "https://img.sofascore.com/api/v1/team/187744/image",
+  "date": "09/07/2026",
+  "time": "07:30:00",
+  "link_names": [
+    "FanCode - AQ",
+    "TapMad - AQ",
+    "FanCode - AQ (BD IP)",
+    "FanCode - LQ"
+  ],
+  "links": "pro/T25lIERheSBJbnRlcm5hdGlvbmFsLVppbWJhYndlLXZzLUJhbmdsYWRlc2gxNzgzMzE4MDIxMzg1.txt"
+}

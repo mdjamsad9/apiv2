@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrexiFy TV - Decrypted API Gateway</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-color: #0b0f19;
+            --card-bg: #111827;
+            --card-border: #1f2937;
+            --accent-primary: #6366f1;
+            --accent-secondary: #a855f7;
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --success: #10b981;
+            --font-main: 'Plus Jakarta Sans', sans-serif;
+            --font-mono: 'JetBrains Mono', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: var(--font-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Background decorative gradients */
+        .gradient-bg {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, rgba(168, 85, 247, 0.05) 50%, rgba(0,0,0,0) 100%);
+            top: -200px;
+            right: -100px;
+            z-index: -1;
+            filter: blur(80px);
+            pointer-events: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* Header design */
+        header {
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .logo-icon {
+            font-size: 2.2rem;
+            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 4px 6px rgba(99, 102, 241, 0.3));
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            background: linear-gradient(to right, #ffffff, #e2e8f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 700px;
+        }
+
+        /* Stats bar */
+        .gateway-status {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.2);
+            color: var(--success);
+            padding: 6px 12px;
+            border-radius: 9999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        .gateway-status i {
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.5; }
+            50% { opacity: 1; }
+            100% { opacity: 0.5; }
+        }
+
+        /* Dashboard content */
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        @media (min-width: 900px) {
+            .grid-layout {
+                grid-template-columns: 3fr 2fr;
+            }
+        }
+
+        /* Cards and List */
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .endpoint-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: border-color 0.2s ease, background 0.2s ease;
+            cursor: pointer;
+        }
+
+        .endpoint-item:hover, .endpoint-item.active {
+            border-color: rgba(99, 102, 241, 0.4);
+            background: rgba(99, 102, 241, 0.03);
+        }
+
+        .endpoint-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+        .endpoint-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .method-badge {
+            background: rgba(99, 102, 241, 0.15);
+            color: #818cf8;
+            font-family: var(--font-mono);
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-weight: 600;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+        }
+
+        .endpoint-desc {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            margin-bottom: 16px;
+        }
+
+        /* URL field */
+        .url-box {
+            display: flex;
+            align-items: center;
+            background: #080c14;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 8px;
+            padding: 8px 12px;
+            gap: 10px;
+        }
+
+        .url-text {
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: var(--success);
+            overflow-x: auto;
+            white-space: nowrap;
+            flex-grow: 1;
+            scrollbar-width: none; /* Firefox */
+        }
+        .url-text::-webkit-scrollbar {
+            display: none; /* Safari and Chrome */
+        }
+
+        .btn-copy {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1rem;
+            padding: 4px 8px;
+            border-radius: 4px;
+            transition: color 0.2s, background 0.2s;
+        }
+
+        .btn-copy:hover {
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        /* Preview Area */
+        .preview-pane {
+            position: sticky;
+            top: 40px;
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+        }
+
+        .preview-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .preview-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .code-container {
+            background-color: #080c14;
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 20px;
+            max-height: 550px;
+            overflow-y: auto;
+            font-family: var(--font-mono);
+            font-size: 0.85rem;
+            color: #818cf8;
+            white-space: pre-wrap;
+            position: relative;
+        }
+
+        /* Custom Scrollbar for Preview Code */
+        .code-container::-webkit-scrollbar {
+            width: 8px;
+        }
+        .code-container::-webkit-scrollbar-track {
+            background: #080c14;
+        }
+        .code-container::-webkit-scrollbar-thumb {
+            background: #1f2937;
+            border-radius: 4px;
+        }
+        .code-container::-webkit-scrollbar-thumb:hover {
+            background: #374151;
+        }
+
+        /* Interactive tabs/highlights */
+        .string { color: #a78bfa; }
+        .number { color: #f43f5e; }
+        .boolean { color: #3b82f6; }
+        .null { color: #6b7280; }
+        .key { color: #34d399; }
+
+        /* Footer styling */
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--accent-primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="gradient-bg"></div>
+
+    <div class="container">
+        <!-- Dashboard Header -->
+        <header>
+            <div class="logo-area">
+                <i class="fa-solid fa-satellite-dish logo-icon"></i>
+                <h1>CrexiFy TV Decrypted API Gateway</h1>
+            </div>
+            <p class="subtitle">A single, modern JSON API interface providing premium live streaming channels, active match configurations, and metadata dynamically synchronized from the original platform.</p>
+            <div class="gateway-status">
+                <i class="fa-solid fa-circle"></i> Live Decrypted & Serving
+            </div>
+        </header>
+
+        <!-- Main Workspace -->
+        <div class="grid-layout">
+            <!-- Left Side: Endpoint Directory -->
+            <div class="card">
+                <h3 style="margin-bottom: 25px; font-weight: 600; font-size: 1.3rem;">API Endpoints Directory</h3>
+                
+                <div class="endpoints-list">
+                    <!-- Endpoint 1: App Config -->
+                    <div class="endpoint-item active" onclick="loadPreview('startup_config', this)">
+                        <div class="endpoint-header">
+                            <span class="endpoint-title">
+                                <i class="fa-solid fa-sliders" style="color: var(--accent-primary);"></i>
+                                Startup Configuration
+                            </span>
+                            <span class="method-badge">GET</span>
+                        </div>
+                        <p class="endpoint-desc">Global app configuration settings, popup notifications, update parameters, and active server URL directories.</p>
+                        <div class="url-box" onclick="event.stopPropagation();">
+                            <span class="url-text" id="url-config">loading...</span>
+                            <button class="btn-copy" onclick="copyUrl('url-config')"><i class="fa-regular fa-copy"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Endpoint 2: Categories -->
+                    <div class="endpoint-item" onclick="loadPreview('categories', this)">
+                        <div class="endpoint-header">
+                            <span class="endpoint-title">
+                                <i class="fa-solid fa-list-ul" style="color: var(--accent-primary);"></i>
+                                Channel Categories
+                            </span>
+                            <span class="method-badge">GET</span>
+                        </div>
+                        <p class="endpoint-desc">Main channel category catalog containing navigation titles, logo URLs, streaming type, and table identifiers.</p>
+                        <div class="url-box" onclick="event.stopPropagation();">
+                            <span class="url-text" id="url-categories">loading...</span>
+                            <button class="btn-copy" onclick="copyUrl('url-categories')"><i class="fa-regular fa-copy"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Endpoint 3: Channels -->
+                    <div class="endpoint-item" onclick="loadPreview('channels', this)">
+                        <div class="endpoint-header">
+                            <span class="endpoint-title">
+                                <i class="fa-solid fa-play" style="color: var(--accent-primary);"></i>
+                                Category Channels
+                            </span>
+                            <span class="method-badge">GET</span>
+                        </div>
+                        <p class="endpoint-desc">Live streaming playlists containing decrypters, stream links, custom user agents, and clear-key DRM arrays for the Sports category.</p>
+                        <div class="url-box" onclick="event.stopPropagation();">
+                            <span class="url-text" id="url-channels">loading...</span>
+                            <button class="btn-copy" onclick="copyUrl('url-channels')"><i class="fa-regular fa-copy"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Endpoint 4: Live Matches -->
+                    <div class="endpoint-item" onclick="loadPreview('live_matches', this)">
+                        <div class="endpoint-header">
+                            <span class="endpoint-title">
+                                <i class="fa-solid fa-trophy" style="color: var(--accent-primary);"></i>
+                                Live Events & Matches
+                            </span>
+                            <span class="method-badge">GET</span>
+                        </div>
+                        <p class="endpoint-desc">Active live tournament events, live fixture titles, scheduling configurations, and custom video parameters.</p>
+                        <div class="url-box" onclick="event.stopPropagation();">
+                            <span class="url-text" id="url-events">loading...</span>
+                            <button class="btn-copy" onclick="copyUrl('url-events')"><i class="fa-regular fa-copy"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Endpoint 5: Tournament Logos -->
+                    <div class="endpoint-item" onclick="loadPreview('sports_logos', this)">
+                        <div class="endpoint-header">
+                            <span class="endpoint-title">
+                                <i class="fa-solid fa-image" style="color: var(--accent-primary);"></i>
+                                Tournament Logos
+                            </span>
+                            <span class="method-badge">GET</span>
+                        </div>
+                        <p class="endpoint-desc">Key-value metadata matching specific live sports categories to transparent SVG/PNG event brandings.</p>
+                        <div class="url-box" onclick="event.stopPropagation();">
+                            <span class="url-text" id="url-event-cats">loading...</span>
+                            <button class="btn-copy" onclick="copyUrl('url-event-cats')"><i class="fa-regular fa-copy"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Live JSON Preview Codeblock -->
+            <div class="preview-pane">
+                <div class="preview-header">
+                    <span class="preview-title" id="preview-title-text"><i class="fa-solid fa-terminal" style="margin-right: 8px;"></i> JSON Schema Preview</span>
+                    <button class="btn-copy" style="font-size: 0.9rem;" onclick="copyPreviewText()"><i class="fa-regular fa-copy" style="margin-right: 6px;"></i> Copy Output</button>
+                </div>
+                <div class="code-container" id="code-output">Loading mock data...</div>
+            </div>
+        </div>
+
+        <!-- Footer Area -->
+        <footer>
+            <p>Automated API Updater &copy; 2026. Powered by GitHub Pages. Maintained by <a href="#" id="github-profile-link">mdjamsad9</a>.</p>
+        </footer>
+    </div>
+
+    <!-- Interactive JS Dashboard Logic -->
+    <script>
+        // Dynamically compute base URL of the hosting GitHub Pages site
+        const origin = window.location.origin;
+        let path = window.location.pathname;
+        if (!path.endsWith('/')) {
+            path += '/';
+        }
+        const apiBase = origin + path + 'decrypted_output/';
+
+        // Put correct URLs inside the boxes
+        document.getElementById('url-config').innerText = apiBase + 'app.json';
+        document.getElementById('url-categories').innerText = apiBase + 'categories.json';
+        document.getElementById('url-channels').innerText = apiBase + 'channels/U3BvcnRzMTc2OTQ0MDUwMjE4Ng.json';
+        document.getElementById('url-events').innerText = apiBase + 'events.json';
+        document.getElementById('url-event-cats').innerText = apiBase + 'event_cats.json';
+
+        // Extract Github Username from URL for Footer Link
+        const githubUser = path.split('/')[1] || 'mdjamsad9';
+        document.getElementById('github-profile-link').innerText = githubUser;
+        document.getElementById('github-profile-link').href = 'https://github.com/' + githubUser;
+
+        // Mock JSON files to show previews
+        const mockData = {
+            startup_config: {
+                "api_url": apiBase,
+                "api2": apiBase,
+                "app_name": "CrexiFy TV",
+                "telegram_url": "https://t.me/crexify",
+                "version": "1.0",
+                "is_tv": false,
+                "maintenance": false
+            },
+            categories: [
+                {
+                    "id": 65,
+                    "cat": "{\"visible\":true,\"name\":\"Live Events - HD\",\"logo\":\"https://apkfolder.io/wp-content/uploads/2026/05/LiveSP.webp\",\"type\":\"m3u\",\"api\":\"https://raw.githubusercontent.com/srhady/axsports/refs/heads/main/playlist.m3u\"}",
+                    "table_name": "TGl2ZSBFdmVudHMgLSBIRDE3ODMwMDA3MjIwNTI",
+                    "order_index": 0
+                },
+                {
+                    "id": 1,
+                    "cat": "{\"visible\":true,\"name\":\"India\",\"logo\":\"https://apkfolder.io/wp-content/uploads/2026/03/ind.png\",\"type\":\"custom\",\"api\":\"" + apiBase + "channels/SW5kaWExNzY5NjIyNDI1NzM5.json\"}",
+                    "table_name": "SW5kaWExNzY5NjIyNDI1NzM5",
+                    "order_index": 4
+                }
+            ],
+            channels: [
+                {
+                    "id": 2,
+                    "channel": "{\"name\": \"TNT Sports\", \"logo\": \"https://apkfolder.io/wp-content/uploads/2026/01/TNT.png\", \"visible\": true, \"links\": \"" + apiBase + "pro/VTNCdmNuUnpJRWh2YldVZ1VISnZNVGMyT1RRME1UTTNPRFkwTUFQcm8gQ2hhbm5lbDE3Njk0NDIxMzg1Mzk.json\"}",
+                    "links": "[{\"name\":\"TNT SPORTS 1 - AQ\",\"link\":\"https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vaplpo3app/out/v1/49b4d538ec854efa90d45084866cf7f9/cenc.mpd\",\"scheme\":0,\"api\":\"d14658a0ede94debcb4013b2056ba6d1:60838a3176127fed0eaf038a5575de11\",\"tokenApi\":\"\"}]",
+                    "order_index": 1
+                }
+            ],
+            live_matches: [
+                {
+                    "id": 26,
+                    "event": "{\"eventName\":\"West Indies vs Sri Lanka\",\"team1Name\":\"WI\",\"team2Name\":\"SL\",\"sportName\":\"Cricket\",\"visible\":true,\"links\":\"" + apiBase + "pro/VDIwIEludGVybmF0aW9uYWwtV0ktdnMtU0wxNzgxMjE0NTE2MzY4.json\",\"link_names\":[\"Link 1\"]}"
+                }
+            ],
+            sports_logos: {
+                "T20 International": "https://apkfolder.io/wp-content/uploads/2026/01/t20.png",
+                "FIFA World Cup": "https://apkfolder.io/wp-content/uploads/2026/01/fifa.png"
+            }
+        };
+
+        // Syntax Highlighter for JSON Preview
+        function syntaxHighlight(json) {
+            if (typeof json !== 'string') {
+                 json = JSON.stringify(json, undefined, 2);
+            }
+            json = json.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+            return json.replace(/("(\\u[a-zA-Z0-9]{4}|\\[^u]|[^\\"])*"(\s*:)?|\b(true|false|null)\b|-?\d+(?:\.\d*)?(?:[eE][+-]?\d+)?)/g, function (match) {
+                let cls = 'number';
+                if (/^"/.test(match)) {
+                    if (/:$/.test(match)) {
+                        cls = 'key';
+                    } else {
+                        cls = 'string';
+                    }
+                } else if (/true|false/.test(match)) {
+                    cls = 'boolean';
+                } else if (/null/.test(match)) {
+                    cls = 'null';
+                }
+                return '<span class="' + cls + '">' + match + '</span>';
+            });
+        }
+
+        // Action when clicking an endpoint
+        function loadPreview(key, element) {
+            // Remove active classes
+            document.querySelectorAll('.endpoint-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            // Add active class to clicked element
+            element.classList.add('active');
+
+            // Set Title text
+            const titleMap = {
+                startup_config: "Startup Configuration",
+                categories: "Channel Categories",
+                channels: "Category Channels (Sports)",
+                live_matches: "Live Events & Matches",
+                sports_logos: "Tournament Logos"
+            };
+            document.getElementById('preview-title-text').innerHTML = `<i class="fa-solid fa-terminal" style="margin-right: 8px;"></i> JSON Schema Preview: ${titleMap[key]}`;
+
+            // Render syntax-highlighted JSON code
+            const code = mockData[key];
+            document.getElementById('code-output').innerHTML = syntaxHighlight(code);
+        }
+
+        // Copy direct link URL function
+        function copyUrl(elementId) {
+            const urlText = document.getElementById(elementId).innerText;
+            navigator.clipboard.writeText(urlText).then(() => {
+                // Change copy icon temporarily
+                const btn = document.querySelector(`#${elementId} + .btn-copy`);
+                const origHtml = btn.innerHTML;
+                btn.innerHTML = `<i class="fa-solid fa-check" style="color: var(--success)"></i>`;
+                setTimeout(() => {
+                    btn.innerHTML = origHtml;
+                }, 1500);
+            }).catch(err => {
+                console.error('Error copying text: ', err);
+            });
+        }
+
+        // Copy raw preview code text function
+        function copyPreviewText() {
+            const codeText = document.getElementById('code-output').innerText;
+            navigator.clipboard.writeText(codeText).then(() => {
+                const btn = document.querySelector('.preview-header .btn-copy');
+                const origHtml = btn.innerHTML;
+                btn.innerHTML = `<i class="fa-solid fa-check" style="color: var(--success); margin-right: 6px;"></i> Copied!`;
+                setTimeout(() => {
+                    btn.innerHTML = origHtml;
+                }, 1500);
+            }).catch(err => {
+                console.error('Error copying preview: ', err);
+            });
+        }
+
+        // Initialize with startup_config preview on load
+        window.addEventListener('DOMContentLoaded', () => {
+            loadPreview('startup_config', document.querySelector('.endpoint-item'));
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "visible": false,
+  "isHot": false,
+  "priority": 1,
+  "category": "Formula 1",
+  "eventName": "Formula 1 - Monaco GP",
+  "eventLogo": "https://companieslogo.com/img/orig/FWONK.D-6358a63d.png",
+  "teamAName": "Formula 1",
+  "teamBName": "Formula 1",
+  "teamAFlag": "https://crystalpng.com/wp-content/uploads/2025/06/F1-02.png",
+  "teamBFlag": "https://crystalpng.com/wp-content/uploads/2025/06/F1-02.png",
+  "date": "05/07/2026",
+  "time": "14:00:00",
+  "end_date": "05/07/2026",
+  "end_time": "18:03:00",
+  "link_names": [
+    "FanCode - AQ",
+    "Auvio Sports - AQ",
+    "CrexiFy TV - AQ",
+    "FanCode - SD",
+    "FHD Server ",
+    "Low Server",
+    "Low Server S2"
+  ],
+  "links": "pro/Rm9ybXVsYSAxLUZvcm11bGEgMS12cy1Gb3JtdWxhIDExNzc3NjUzNDE2MzUx.txt"
+}
