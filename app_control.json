@@ -1,0 +1,17 @@
+{
+  "active_source": "crexify",
+  "sources": {
+    "crexify": {
+      "genz_url": "https://p.genzdev.xyz/2-xmnhab.json",
+      "token": "8f4gha9affeegg7cigafdgc7hegfkefaicigdgg1haffhekgeeigcfgahedfhef",
+      "aes_key": "WT1sdkEvUlR4ckd2",
+      "aes_iv": "Q7sKcm9LR4VaX2pN",
+      "xor_key": 90,
+      "keys": {
+        "event_cats.json": "2c68753f2c3f342e05393b2e29742e222e",
+        "events.json": "2c68753f2c3f342e29742e222e",
+        "categories.json": "2c6875393b2e3f3d3528333f29742e222e"
+      }
+    }
+  }
+}

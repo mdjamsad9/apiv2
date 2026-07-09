@@ -1,0 +1,19 @@
+# Memory dumps (huge files, not needed on GitHub)
+*.bin
+dump_*
+region*
+
+# Temp scripts
+temp_*.py
+test_*.py
+
+# Log files
+logcat.txt
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store

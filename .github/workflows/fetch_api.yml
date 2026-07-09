@@ -1,0 +1,42 @@
+name: Fetch & Decrypt CrexiFy API
+
+on:
+  schedule:
+    - cron: '*/5 * * * *' # Runs every 5 minutes
+  workflow_dispatch:      # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  run-decryption:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.10'
+        cache: 'pip'
+
+    - name: Install Dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run Decryption Script
+      env:
+        GITHUB_REPOSITORY: ${{ github.repository }}
+        GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+      run: |
+        python fetch_fresh.py
+
+    - name: Commit and Push Decrypted Files to Main
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add decrypted_output/
+        git commit -m "Automated update of decrypted files [skip ci]" || exit 0
+        git push

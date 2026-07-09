@@ -1,0 +1,27 @@
+{
+  "service": "CrexiFy TV Decrypted API Gateway",
+  "base_url": "https://mdjamsad9.github.io/apiv2/decrypted_output/",
+  "endpoints": {
+    "startup_config": {
+      "url": "https://mdjamsad9.github.io/apiv2/decrypted_output/app.json",
+      "description": "Global app configuration, popups, and api redirection urls."
+    },
+    "categories": {
+      "url": "https://mdjamsad9.github.io/apiv2/decrypted_output/categories.json",
+      "description": "Main channel category list containing category names, logos, types, and 'table_name'."
+    },
+    "channels": {
+      "url_pattern": "https://mdjamsad9.github.io/apiv2/decrypted_output/channels/{table_name}.json",
+      "sports_tab_url": "https://mdjamsad9.github.io/apiv2/decrypted_output/channels/U3BvcnRzMTc2OTQ0MDUwMjE4Ng.json",
+      "description": "Decrypted direct streaming URLs, DRM decryption keys, names, and logos for a specific category table_name."
+    },
+    "live_matches": {
+      "url": "https://mdjamsad9.github.io/apiv2/decrypted_output/events.json",
+      "description": "List of active live matches (cricket, football, etc.) with stream URLs and DRM keys."
+    },
+    "sports_logos": {
+      "url": "https://mdjamsad9.github.io/apiv2/decrypted_output/event_cats.json",
+      "description": "Key-value dictionary mapping tournament names to logo URLs."
+    }
+  }
+}
