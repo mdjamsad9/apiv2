@@ -5,7 +5,7 @@
     "Mode": "GenZ",
     "api_url": "https://mdjamsad9.github.io/apiv2/decrypted_output/",
     "api2": "https://mdjamsad9.github.io/apiv2/decrypted_output/",
-    "api3": "",
+    "api3": "https://cricyplayers.com/data/",
     "min_version_code": 48,
     "enabled": true,
     "telegram_url": "",
@@ -32,7 +32,7 @@
     "support_ad_enabled": true,
     "support_ad_url": "https://reatasesetitoefa.com?HqJvV=1284362",
     "support_wait_seconds": 12,
-    "support_reopen_hours": 6,
+    "support_reopen_hours": 12,
     "support_open_tutorial": false,
     "share_url": ""
   }
